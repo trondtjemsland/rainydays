@@ -1,0 +1,22 @@
+<svg id="LOGO" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="254.261" height="71.036" viewBox="0 0 254.261 71.036">
+  <defs>
+    <filter id="Icon_awesome-mountain" x="185.712" y="11.409" width="68.55" height="59.627" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#dfd6d6" flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_9" data-name="Group 9" transform="translate(0 -3.927)">
+    <g id="Rainy_days_Logo" data-name="Rainy days Logo" transform="translate(29.174 21.336)">
+      <text id="Best_enjoyed_outside._" data-name="Best enjoyed outside. " transform="translate(-0.174 42.591)" fill="#d9b57c" font-size="13" font-family="Montserrat-Medium, Montserrat" font-weight="500" letter-spacing="-0.01em"><tspan x="0" y="0">Best enjoyed outside. </tspan></text>
+      <g id="LOGO_Rainy_Days" data-name="LOGO Rainy Days" transform="translate(165.538)">
+        <g transform="matrix(1, 0, 0, 1, -194.71, -17.41)" filter="url(#Icon_awesome-mountain)">
+          <path id="Icon_awesome-mountain-2" data-name="Icon awesome-mountain" d="M27.569,1.2a2.512,2.512,0,0,0-4.279,0L.4,37.619a2.653,2.653,0,0,0-.093,2.654,2.535,2.535,0,0,0,2.232,1.354H48.317a2.534,2.534,0,0,0,2.232-1.355ZM25.43,7.413l6.786,10.8H25.43l-5.086,5.2L17.32,20.321Z" transform="translate(194.71 17.41)" fill="#10262f"/>
+        </g>
+      </g>
+    </g>
+    <text id="Rainy_days" data-name="Rainy days" transform="translate(0 44.927)" fill="#161616" font-size="43" font-family="Roboto-Black, Roboto" font-weight="800" letter-spacing="-0.04em"><tspan x="0" y="0">Rainy days</tspan></text>
+  </g>
+</svg>
