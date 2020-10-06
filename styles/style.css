@@ -2,9 +2,9 @@
 
 body {
   font-family: "Montserrat", sans-serif, Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 header {
-  width: auto;
 }
 nav {
   display: flex;
@@ -19,6 +19,7 @@ nav {
 .nav-links a {
   text-transform: uppercase;
   text-decoration: none;
+  color: ;
 }
 
 h1 {
@@ -28,4 +29,16 @@ h1 {
 .footer-links a {
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.hero-bg {
+  background-size: cover;
+}
+
+.logo {
+  max-width: 200px;
+}
+.fa-address-book {
+  font-size: 3rem;
+  color: pink;
 }
