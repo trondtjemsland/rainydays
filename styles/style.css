@@ -38,7 +38,7 @@ nav {
   text-transform: uppercase;
 }
 
-li {
+.navlinks__li {
   padding: 0px 10px;
   margin: auto;
 }
@@ -109,6 +109,7 @@ h1 {
 .textbox p {
   font-size: 1rem;
   font-weight: 600;
+  color: rgb(241, 235, 235);
 }
 
 footer {
@@ -125,9 +126,11 @@ footer ul {
   display: flex;
   border: solid 2px blue;
   justify-content: flex-end;
+  margin: auto;
 }
 
-.footer_links {
+.footer__links {
+  margin-left: 15px;
 }
 
 .footer__list {
@@ -163,4 +166,11 @@ a:visited {
   color: white;
 }
 
-@media (max-width 767px);
+@media (max-width: 767px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 1200px) {
+}
