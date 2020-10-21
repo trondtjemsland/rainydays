@@ -3,42 +3,164 @@
 body {
   font-family: "Montserrat", sans-serif, Arial, Helvetica, sans-serif;
   margin: 0;
-}
-header {
-}
-nav {
-  display: flex;
-  align-items: center;
-}
-.nav-links li {
-  width: 50;
-  list-style-type: none;
-  display: inline-flex;
-  letter-spacing: 3px;
-}
-.nav-links a {
-  text-transform: uppercase;
-  text-decoration: none;
-  color: ;
-}
-
-h1 {
-  text-transform: uppercase;
-}
-
-.footer-links a {
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.hero-bg {
+  padding: 0;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  height: 800px;
+  background-image: url(../img/rainydaysbg.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .logo {
-  max-width: 200px;
+  align-self: flex-start;
+  width: 16%;
+  border: solid 2px yellow;
 }
-.fa-address-book {
-  font-size: 3rem;
-  color: pink;
+
+nav {
+  display: flex;
+  border: solid 2px green;
+  width: 45%;
+  justify-content: center;
 }
+
+.nav__links {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  padding: 0px;
+  text-transform: uppercase;
+}
+
+li {
+  padding: 0px 10px;
+  margin: auto;
+}
+
+.nav__icons {
+  color: white;
+  margin-right: 30px;
+  font-size: 1.3rem;
+  border: solid 2px red;
+  width: 10%;
+}
+
+.fa-user-circle {
+  margin: 5px;
+}
+.fa-search {
+  margin: 5px;
+}
+.fa-shopping-basket {
+  margin: 5px;
+}
+
+header {
+  grid-area: header;
+  background-color: #141212;
+  opacity: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heroimage {
+  grid-area: main;
+}
+
+.charousel {
+  border: solid 2px yellow;
+  width: 900px;
+  height: 400px;
+  margin: auto;
+  padding: 10px;
+}
+
+.charouselpics img {
+  height: 300px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.pictures {
+  display: flex;
+  justify-content: center;
+}
+
+.textbox {
+  width: 700px;
+  text-align: center;
+  margin: auto;
+  color: white;
+  border: solid 2px green;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.textbox p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+footer {
+  grid-area: footer;
+  height: 100px;
+  background-color: #434241;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  position: relative;
+}
+footer ul {
+  list-style-type: none;
+  display: flex;
+  border: solid 2px blue;
+  justify-content: flex-end;
+}
+
+.footer_links {
+}
+
+.footer__list {
+  width: 20%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 50px;
+}
+
+.footer__icons {
+  background-color: white;
+  border: solid 2px orange;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: -28px;
+  margin-right: 20px;
+}
+
+.fa-comments__position {
+  position: relative;
+  top: 16px;
+  left: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+@media (max-width 767px);
