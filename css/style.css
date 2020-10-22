@@ -19,11 +19,16 @@ body {
   align-self: flex-start;
   width: 16%;
   border: solid 2px yellow;
+  margin-top: 5px;
+}
+
+.logo img {
+  height: 68px;
+  width: 245px;
 }
 
 nav {
   display: flex;
-  border: solid 2px green;
   width: 45%;
   justify-content: center;
 }
@@ -47,7 +52,6 @@ nav {
   color: white;
   margin-right: 30px;
   font-size: 1.3rem;
-  border: solid 2px red;
   width: 10%;
 }
 
@@ -80,6 +84,8 @@ header {
   height: 400px;
   margin: auto;
   padding: 10px;
+  height: fit-content;
+  width: fit-content;
 }
 
 .charouselpics img {

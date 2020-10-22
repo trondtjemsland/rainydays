@@ -1,0 +1,53 @@
+footer {
+  grid-area: footer;
+  height: 100px;
+  background-color: #434241;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  position: relative;
+}
+footer ul {
+  list-style-type: none;
+  display: flex;
+  border: solid 2px blue;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+.footer__links {
+  margin-left: 15px;
+}
+
+.footer__list {
+  width: 20%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 50px;
+}
+
+.footer__icons {
+  background-color: white;
+  border: solid 2px orange;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: -28px;
+  margin-right: 20px;
+}
+
+.fa-comments__position {
+  position: relative;
+  top: 16px;
+  left: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}

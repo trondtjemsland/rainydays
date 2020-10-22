@@ -1,0 +1,67 @@
+.logo {
+  align-self: flex-start;
+  width: 16%;
+  border: solid 2px yellow;
+  margin-top: 5px;
+}
+
+.logo img {
+  height: 20px;
+  width: 20px;
+}
+
+nav {
+  display: flex;
+  width: 45%;
+  justify-content: center;
+}
+
+.nav__links {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  padding: 0px;
+  text-transform: uppercase;
+}
+
+.navlinks__li {
+  padding: 0px 10px;
+  margin: auto;
+}
+
+.nav__icons {
+  color: white;
+  margin-right: 30px;
+  font-size: 1.3rem;
+  width: 10%;
+}
+
+.fa-user-circle {
+  margin: 5px;
+}
+.fa-search {
+  margin: 5px;
+}
+.fa-shopping-basket {
+  margin: 5px;
+}
+
+header {
+  grid-area: header;
+  background-color: #141212;
+  opacity: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
