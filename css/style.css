@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
 
 body {
   font-family: "Montserrat", sans-serif, Arial, Helvetica, sans-serif;
@@ -9,7 +9,6 @@ body {
     "header"
     "main"
     "footer";
-  height: 800px;
   background-image: url(../img/rainydaysbg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,7 +99,6 @@ header {
 }
 
 .textbox {
-  width: 700px;
   text-align: center;
   margin: auto;
   color: white;
@@ -120,7 +118,6 @@ h1 {
 
 footer {
   grid-area: footer;
-  height: 100px;
   background-color: #434241;
   display: flex;
   flex-direction: row-reverse;
@@ -140,21 +137,20 @@ footer ul {
 }
 
 .footer__list {
-  width: 20%;
+  width: 32%;
   display: flex;
   flex-direction: row-reverse;
-  margin-right: 50px;
+  margin-right: 32px;
 }
 
 .footer__icons {
   background-color: white;
-  border: solid 2px orange;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   position: absolute;
   top: -28px;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 .fa-comments__position {
