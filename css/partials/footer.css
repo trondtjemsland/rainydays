@@ -5,6 +5,7 @@ footer {
   flex-direction: row-reverse;
   width: 100%;
   position: relative;
+  min-height: 80px;
 }
 footer ul {
   list-style-type: none;

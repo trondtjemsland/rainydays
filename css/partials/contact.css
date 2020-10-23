@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  background-color: #77949b;
+}
+
+.contactcontainer {
+  border: solid 3px red;
+}
+
+.contactcard {
+  border: solid 2px springgreen;
+  height: 552px;
+  width: 1000px;
+  margin: auto;
+  background-color: #303739;
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+}
+
+.contactinfo p {
+  margin-left: 40px;
+  margin-bottom: 70px;
+}
+
+.fa-map-marker-alt {
+  margin-bottom: 70px;
+}
+
+.fa-address-card {
+  margin-bottom: -70px;
+}
+
+.mapimage {
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.contactimage {
+  border-radius: 20px;
+}
