@@ -28,17 +28,15 @@ body {
   border-radius: 10px;
 }
 
+.contactheading {
+  color: white;
+  text-align: center;
+  font-weight: normal;
+}
+
 .contactinfo p {
   margin-left: 40px;
   margin-bottom: 70px;
-}
-
-.fa-map-marker-alt {
-  margin-bottom: 70px;
-}
-
-.fa-address-card {
-  margin-bottom: -70px;
 }
 
 .mapimage {
