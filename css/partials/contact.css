@@ -24,7 +24,6 @@ main {
 }
 
 .contactcontainer {
-  border: solid 2px springgreen;
   height: 650px;
   max-width: 1000px;
   margin: auto;
@@ -35,7 +34,6 @@ main {
 }
 
 .contactcard {
-  border: solid 2px springgreen;
   margin: auto;
   background-color: #303739;
   display: flex;

@@ -12,8 +12,36 @@
   background-image: url(/img/rainydaysbg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
 }
 
 main {
   min-height: calc(100vh - 77px - 80px);
+}
+
+.charousel {
+  height: 300px;
+  width: 900px;
+  border: solid 2px blue;
+  margin: auto;
+}
+
+.homepageheading {
+  text-align: center;
+}
+
+.homepageheading p {
+  color: white;
+}
+
+.homepage__button {
+  height: 50px;
+  width: 100px;
+  background-color: #22ea8d;
+  border: none;
+  border-radius: 25px;
+  color: rgb(231, 216, 216);
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
 }
