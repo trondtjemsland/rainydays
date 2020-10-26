@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
 
 .homepage__index {
-  font-family: "Montserrat", sans-serif, Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif, Arial, Helvetica;
   margin: 0;
   padding: 0;
   display: grid;
@@ -9,7 +9,6 @@
     "header"
     "main"
     "footer";
-
   background-image: url(/img/rainydaysbg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,44 +16,4 @@
 
 main {
   min-height: calc(100vh - 77px - 80px);
-}
-
-.charousel {
-  border: solid 2px yellow;
-  width: 900px;
-  height: 400px;
-  margin: auto;
-  padding: 10px;
-  height: fit-content;
-  width: fit-content;
-}
-
-.charouselpics img {
-  height: 300px;
-  width: 250px;
-  border-radius: 50%;
-}
-
-.pictures {
-  display: flex;
-  justify-content: center;
-}
-
-.textbox {
-  width: 700px;
-  text-align: center;
-  margin: auto;
-  color: white;
-  border: solid 2px green;
-}
-
-.homepageh1 {
-  font-weight: 600;
-  font-size: 2.5rem;
-}
-
-.textbox p {
-  font-size: 1rem;
-  font-weight: 600;
-  color: rgb(241, 235, 235);
 }

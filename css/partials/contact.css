@@ -14,21 +14,20 @@ main {
   min-height: calc(100vh - 77px - 80px);
 }
 
-.contactheader {
+.contactheading {
   text-align: center;
   font-size: 2rem;
 }
 
-.contactheader h1 {
+.contactheading h1 {
   font-weight: 400;
 }
 
 .contactcontainer {
   border: solid 2px springgreen;
-  height: 1200px;
+  height: 650px;
   max-width: 1000px;
   margin: auto;
-
   font-size: 1.5rem;
   align-items: center;
   color: white;

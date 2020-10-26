@@ -49,7 +49,6 @@ nav {
 
 header {
   grid-area: header;
-  background-color: var(--header-color);
   opacity: 90%;
   display: flex;
   justify-content: space-between;
