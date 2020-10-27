@@ -15,7 +15,7 @@ main {
   min-height: calc(100vh - 77px - 80px);
 }
 
-.checkoutcontainer {
+.checkout-success-container {
   height: 926px;
   width: 640px;
   background-color: #303739;
@@ -23,19 +23,19 @@ main {
   border-radius: 20px;
 }
 
-.checkouth1 {
+.checkout-successh1 {
   text-align: center;
   font-weight: 500;
   font-family: "Merriwahter";
   font-weight: 700;
 }
 
-.checkouttext {
+.checkout-success-text {
   color: white;
   text-align: center;
 }
 
-.checkouttext2 {
+.checkout-success-text2 {
   color: white;
   text-align: center;
 }
