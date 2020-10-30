@@ -1,0 +1,35 @@
+@media (max-width: 991px) {
+  .jacket-list__container {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    display: grid;
+    grid-template-areas:
+      "card1 card2"
+      "card3 card4"
+      "card5 card6"
+      "card7 card8";
+    grid-row-gap: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .jacket-list__container {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    display: grid;
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3"
+      "card4"
+      "card5"
+      "card6"
+      "card7"
+      "card8";
+    grid-row-gap: 30px;
+  }
+}
