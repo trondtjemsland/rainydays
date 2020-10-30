@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  background-color: #77949b;
+}
+
+main {
+  min-height: calc(100vh - 77px - 80px);
+}
+
+.specific-jacketheading {
+  width: 100%;
+  text-align: center;
+}
+
+.specific-jacketheading h1 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.specific-jacket__container {
+  width: 70%;
+  margin: auto;
+}
+
+.specific-jacket__card {
+  width: 100%;
+  display: flex;
+}
+
+.jacketinfoimg {
+  width: 50%;
+}
+
+.jacketinfo-text {
+  width: 50%;
+}
+
+.jacketinfo-heading {
+  font-family: "Merriweather";
+  color: #303739;
+  font-size: 1.5rem;
+}
+.jacketinfo-price {
+  color: white;
+}
+.specific-jacket__img {
+  height: 460px;
+  width: 380px;
+  border-radius: 20px;
+}
+
+.jacketinfo-list {
+  list-style: none;
+  padding: 0;
+  color: white;
+}
+
+.jacketinfo-list__text {
+  margin-bottom: 5px;
+}
+
+.fa-star {
+  font-size: 1.7rem;
+  color: #303739;
+  margin-top: 20px;
+}
+.jacketinfo-rating p {
+  font-size: 0.75rem;
+  font-family: "Merriweather";
+  margin-top: 0;
+  margin-left: 5px;
+  color: white;
+}
+
+.addtocart-btn {
+  background-color: #22ea8d;
+  height: 70px;
+  width: 260px;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 40px;
+}
+.addtocart-text {
+  position: relative;
+  margin-left: 70px;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.peoplelike p {
+  text-align: center;
+}
+
+hr.rounded {
+  border-top: 5px solid #303739;
+  border-radius: 5px;
+}
+
+.peoplelikeimg {
+  height: 150px;
+  width: 130px;
+  border-radius: 10px;
+}
+
+.peoplelike-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.shippingbox p {
+  font-size: 0.6rem;
+  margin-left: 25px;
+  margin-top: -45px;
+  color: white;
+}
+
+.fa-shipping-fast {
+  margin-top: 115px;
+  font-size: 1rem;
+  color: #303739;
+}

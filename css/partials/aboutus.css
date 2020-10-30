@@ -54,3 +54,10 @@ main {
   width: 1000px;
   border-radius: 20px;
 }
+
+.aboutusbox2 {
+  margin-bottom: 50px;
+}
+.aboutustext p {
+  color: white;
+}
