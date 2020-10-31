@@ -1,3 +1,11 @@
+header {
+  grid-area: header;
+  opacity: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logo {
   align-self: flex-start;
   width: 16%;
@@ -45,14 +53,6 @@ nav {
 }
 .fa-shopping-basket {
   margin: 5px;
-}
-
-header {
-  grid-area: header;
-  opacity: 90%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 a {

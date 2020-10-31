@@ -14,6 +14,7 @@ body {
 
 main {
   min-height: calc(100vh - 77px - 80px);
+  width: 100%;
 }
 
 .checkout-container {
