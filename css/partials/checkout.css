@@ -21,8 +21,6 @@ main {
   display: grid;
   grid-template-areas: "checkoutbox1 checkoutbox2";
   width: 90%;
-  border: solid 2px pink;
-  height: 900px;
   margin: auto;
 }
 
@@ -30,7 +28,6 @@ main {
   margin-top: 100px;
   grid-area: checkoutbox1;
   height: 400px;
-  border: solid 2px blue;
   display: grid;
   grid-template-areas:
     "header header header header"

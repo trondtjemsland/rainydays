@@ -1,23 +1,82 @@
 @media (max-width: 991px) {
-  .contacticons {
-    width: 10%;
+  .line {
+    height: 3px;
+    width: 30px;
+    background: white;
+    flex-direction: column;
   }
-  .contactinfo {
+
+  nav {
+    position: relative;
+  }
+
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    display: block;
+  }
+
+  .nav__links {
+    position: fixed;
+    background-color: #141212;
+    height: 50vh;
     width: 100%;
-    margin-left: 10px;
-    margin-bottom: 104px;
+    flex-direction: column;
   }
-  .contactinfo p {
-    margin-left: 8px;
+  .nav__icons {
+    position: relative;
+    display: flex;
+  }
+
+  .specific-jacket__img {
+    height: 460px;
+    width: 250px;
+    border-radius: 20px;
+  }
+
+  .contactcontainer {
+    max-width: 1000px;
+    margin: auto;
+    font-size: 1.5rem;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .contactinfo {
+    width: 57%;
+    margin-left: -20px;
+    margin-bottom: 36px;
+  }
+  .checkout-container {
+    display: grid;
+    grid-template-areas:
+      "checkoutbox1"
+      "checkoutbox2";
+    width: 90%;
+    margin: auto;
+  }
+
+  .bankcard {
+    grid-area: checkoutbox2;
+    height: 610px;
+    width: 80%;
+    justify-self: flex-end;
+    background-color: #313438;
+    border-radius: 10px;
+    margin: 130px auto 80px auto;
   }
 
   .footer__list {
-    width: 100%;
-    justify-content: center;
+    width: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 32px;
   }
 
   .footer__links {
-    margin-left: 60px;
+    margin-left: 15px;
+    font-size: 2rem;
   }
 
   .jacket-list__container {
@@ -35,25 +94,83 @@
   }
 }
 
+/* MOBILE */
+
 @media (max-width: 767px) {
-  .contacticons {
-    width: 10%;
+  .jacketinfo-text {
+    width: 80%%;
   }
+
+  .fa-star {
+    font-size: 1rem;
+    color: #303739;
+    margin-top: 20px;
+  }
+
+  .specific-jacket__card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contactcontainer {
+    max-width: 1000px;
+    margin: auto;
+    font-size: 1.5rem;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .contactcard {
+    width: 90%;
+    margin: auto;
+    background-color: #303739;
+    height: 500px;
+    font-size: 1.5rem;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
   .contactinfo {
     width: 100%;
-    margin-left: 10px;
-    margin-bottom: 104px;
+    margin: auto;
+    margin-bottom: 36px;
   }
-  .contactinfo p {
-    margin-left: 8px;
+
+  .checkout-container {
+    display: grid;
+    grid-template-areas:
+      "checkoutbox1"
+      "checkoutbox2";
+    width: 90%;
+    border: solid 2px pink;
+    margin: auto;
   }
-  .footer__list {
-    width: 100%;
-    justify-content: center;
+
+  .bankcard {
+    grid-area: checkoutbox2;
+    height: 610px;
+    width: 80%;
+    justify-self: flex-end;
+    background-color: #313438;
+    border-radius: 10px;
+    margin: 130px auto 80px auto;
   }
 
   .footer__links {
-    margin-left: 60px;
+    margin-left: 15px;
+    font-size: 1.5rem;
+  }
+
+  .footer__list {
+    width: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 32px;
   }
 
   .jacket-list__container {

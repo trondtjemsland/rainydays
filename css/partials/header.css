@@ -6,6 +6,10 @@ header {
   align-items: center;
 }
 
+.hamburger {
+  display: none;
+}
+
 .logo {
   align-self: flex-start;
   width: 16%;
