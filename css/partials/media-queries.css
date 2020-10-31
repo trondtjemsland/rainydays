@@ -1,4 +1,16 @@
 @media (max-width: 991px) {
+  .contacticons {
+    width: 10%;
+  }
+  .contactinfo {
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 104px;
+  }
+  .contactinfo p {
+    margin-left: 8px;
+  }
+
   .footer__list {
     width: 100%;
     justify-content: center;
@@ -24,6 +36,17 @@
 }
 
 @media (max-width: 767px) {
+  .contacticons {
+    width: 10%;
+  }
+  .contactinfo {
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 104px;
+  }
+  .contactinfo p {
+    margin-left: 8px;
+  }
   .footer__list {
     width: 100%;
     justify-content: center;

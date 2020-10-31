@@ -9,6 +9,7 @@ body {
     "main"
     "footer";
   background-color: #77949b;
+  width: 100%;
 }
 main {
   min-height: calc(100vh - 77px - 80px);
