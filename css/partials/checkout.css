@@ -177,7 +177,6 @@ main {
   grid-area: checkoutbox2;
   height: 730px;
   width: 80%;
-  border: solid 1px yellow;
   justify-self: flex-end;
   margin-right: 30px;
   background-color: #313438;

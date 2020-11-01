@@ -7,9 +7,6 @@
     align-items: right;
   }
 
-  .navlinks__li {
-  }
-
   .specific-jacket__img {
     height: 460px;
     width: 250px;
@@ -80,13 +77,28 @@
   .nav__icons {
     color: white;
     margin-right: 10px;
-    font-size: 1.3rem;
-    width: 15%;
+    font-size: 1rem;
+    width: 30%;
     align-items: right;
+  }
+  .logo {
+    align-self: flex-start;
+    width: 6%;
+  }
+
+  .logo img {
+    height: 48px;
+    width: 125px;
+  }
+  nav {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin-left: 100px;
   }
 
   .jacketinfo-text {
-    width: 80%%;
+    width: 80%;
   }
 
   .fa-star {
@@ -135,7 +147,6 @@
       "checkoutbox1"
       "checkoutbox2";
     width: 90%;
-    border: solid 2px pink;
     margin: auto;
   }
 
