@@ -18,6 +18,8 @@ main {
 .contactheading {
   text-align: center;
   font-size: 2rem;
+  width: 100%;
+  border: solid 2px yellow;
 }
 
 .contactheading h1 {
