@@ -19,7 +19,6 @@ main {
   text-align: center;
   font-size: 2rem;
   width: 100%;
-  border: solid 2px yellow;
 }
 
 .contactheading h1 {
@@ -44,6 +43,7 @@ main {
   align-items: center;
   color: white;
   border-radius: 10px;
+  margin-bottom: 50px;
 }
 
 .mapimage {
