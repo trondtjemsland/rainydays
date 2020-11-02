@@ -193,4 +193,10 @@
       "card8";
     grid-row-gap: 30px;
   }
+
+  .charousel {
+    width: 400px;
+    text-align: center;
+    margin: 80px auto;
+  }
 }
