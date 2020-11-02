@@ -1,16 +1,20 @@
 @media (max-width: 991px) {
+  .jacketinfoimg {
+    width: 70%;
+  }
+
+  .specific-jacket__img {
+    height: 460px;
+    width: 300px;
+    border-radius: 20px;
+  }
+
   .nav__icons {
     color: white;
     margin-right: 10px;
     font-size: 1.3rem;
     width: 16%;
     align-items: right;
-  }
-
-  .specific-jacket__img {
-    height: 460px;
-    width: 250px;
-    border-radius: 20px;
   }
 
   .contactcontainer {
@@ -74,6 +78,16 @@
 }
 
 @media (max-width: 767px) {
+  main {
+    min-height: calc(100vh - 77px - 80px);
+    width: 100%;
+  }
+  .jacket__img {
+    height: 460px;
+    width: 370px;
+    border-radius: 20px;
+  }
+
   .nav__icons {
     color: white;
     margin-right: 10px;
