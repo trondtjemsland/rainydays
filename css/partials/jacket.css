@@ -10,6 +10,7 @@ body {
     "main"
     "footer";
   background-color: #77949b;
+  width: 100%;
 }
 
 main {
@@ -92,7 +93,7 @@ main {
 }
 .addtocart-text {
   position: relative;
-  margin-left: 70px;
+  margin-left: 40px;
   margin-top: 20px;
   font-size: 1.5rem;
   font-weight: bold;
