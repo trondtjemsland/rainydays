@@ -12,20 +12,21 @@ body {
   background-color: #77949b;
 }
 
-main {
+/* main {
   min-height: calc(100vh - 77px - 80px);
-}
+} */
 
 .jacket-list__container {
   width: 70%;
   margin: auto;
   margin-bottom: 40px;
   justify-content: space-between;
-  display: grid;
+  display: flex;
+  /* display: grid;
   grid-template-areas:
     "card1 card2 card3 card4"
     "card5 card6 card7 card8";
-  grid-row-gap: 30px;
+  grid-row-gap: 30px; */
 }
 .jacketselction-heading {
   width: 100%;
@@ -37,7 +38,7 @@ main {
   font-weight: 500;
 }
 
-.jacketcard1 {
+.jacketcard {
   grid-area: card1;
   position: relative;
 }
@@ -78,7 +79,7 @@ main {
   margin-left: 80px;
 }
 
-.jacketcard2 {
+/* .jacketcard2 {
   grid-area: card2;
 }
 
@@ -102,7 +103,7 @@ main {
 
 .jacketcard8 {
   grid-area: card8;
-}
+} */
 
 .jacketlistimage {
   height: 270px;
