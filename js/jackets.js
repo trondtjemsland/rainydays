@@ -13,21 +13,16 @@ async function getApi() {
             <p>Trollveggen 100%Gore-tex</p>
         </div>
         <div class="jacketbutton">
-          <p><a href="jacket.html">$250,00</a></p>
+          <p><a href="jacket.html?id=${element.id}">$250,00</a></p>
         </div>
       </div>
       `;
     });
 
   } catch (error) {
-    // document.querySelector(".alert").innerHTML = showAlertTouser(
-    //   "danger",
-    //   "Error"
-    // );
+
   } finally {
-    // setTimeout(function () {
-    //   document.querySelector(".alert").innerHTML = "";
-    // }, 5000);
+
   }
 }
 
