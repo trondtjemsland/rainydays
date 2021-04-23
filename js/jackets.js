@@ -1,11 +1,13 @@
 async function getApi() {
   try {
-    const response = await fetch("https://noroffcors.herokuapp.com/https://api.tjemsland.online/wp-json/wc/store/products");
+    const response = await fetch(
+      "https://noroffcors.herokuapp.com/https://api.tjemsland.online/wp-json/wc/store/products"
+    );
     const apiResults = await response.json();
     console.log(apiResults);
 
-    apiResults.forEach(element => {
-      document.querySelector('.jacket-list__container').innerHTML += `
+    apiResults.forEach((element) => {
+      document.querySelector(".jacket-list__container").innerHTML += `
       <div class="jacketcard">
         <i class="far fa-heart"></i>
         <img class="jacketlistimage" src="${element.images[0].src}">
@@ -18,11 +20,8 @@ async function getApi() {
       </div>
       `;
     });
-
   } catch (error) {
-
   } finally {
-
   }
 }
 
